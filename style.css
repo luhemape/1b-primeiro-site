@@ -1,0 +1,23 @@
+import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+:root{
+    --preto: #0a0908ff;
+    --metal: #22333bff;
+    --banco: #f2f4f3ff;
+    --castanho: #a9927dff;
+    --marrom: #5e503fff;
+    --fonte-titulo: "Edu AU VIC WA NT Guides", cursive;
+    --fonte-texto: "Nunito", sans-serif;
+}
+body{
+   background-color: var(--metal);
+   font-family: var(--fonte-texto);
+
+}
+
+
