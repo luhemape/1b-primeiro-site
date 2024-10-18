@@ -1,23 +1,48 @@
-import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 *{
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
-    --preto: #0a0908ff;
-    --metal: #22333bff;
-    --banco: #f2f4f3ff;
-    --castanho: #a9927dff;
-    --marrom: #5e503fff;
-    --fonte-titulo: "Edu AU VIC WA NT Guides", cursive;
-    --fonte-texto: "Nunito", sans-serif;
+    --preto: rgb(3, 3, 10);
+    --cinza: rgb(116, 117, 123);
+    --dourado: rgb(198, 149, 109);
+    --beje: rgb(255, 229, 223);
+    --branco: rgb(234, 234, 234);
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Afacad Flux", sans-serif;
 }
+
 body{
-   background-color: var(--metal);
-   font-family: var(--fonte-texto);
+    background-color: var(--branco);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinza);
 
 }
 
+.cabecalho-logo{
+    width: 16%;
+    border-radius: 100%;
+    padding: 1em;
+}
 
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.cabecalho-link:hover{
+    color: var(--dourado);
+    font-size: 1.9em;
+    transition: 0.3s;
+}
